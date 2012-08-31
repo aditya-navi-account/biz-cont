@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Business Continuity - Navisite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="../lib/bootstrap/docs/assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+
+      }
+      .navbar-navi .brand-navi {
+        font-weight: bold;
+        padding-left: 3%;
+        color: #222;
+        text-shadow: 0px 2px 3px #555;
+      }
+      .navbar-navi {
+        background: #474747 url("./img/bg-gauss.png");
+      }
+      .navi-navbar-text {
+        color: #999;
+      }
+    </style>
+    <link href="../lib/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="../lib/bootstrap/docs/assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../lib/bootstrap/docs/assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../lib/bootstrap/docs/assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../lib/bootstrap/docs/assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../lib/bootstrap/docs/assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+
+  <!-- <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner navbar-navi">
+      <div class="container-fluid">
+        <div class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="label label-warning">Logout</span>
+        </div>
+        <a class="brand brand-navi" href="#">Navisite - A Time Warner Cable Company</a>
+
+        <p class="navbar-text">Hello Aditya</p>
+      </div>
+        <ul class="nav">
+          <li class="divider-vertical"></li>
+          <li class="pull-right"><p class="navbar-text">Hello Aditya</p></li>
+          <li><span class="label label-warning">Logout</span></li>
+        </ul>
+    </div>
+  </div> -->
+  <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner navbar-navi">
+        <div class="container-fluid">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand brand-navi" href="#">Navisite - A Time Warner Cable Company</a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right navi-navbar-text">
+              Logged in as Adi, <a href="#" class="navbar-link navi-navbar-text">Logout</a>
+            </p>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+    <!-- <div class="navbar navbar-navi navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Navisite - A Time Warner Cable Company</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div></.nav-collapse>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="container">
+
+      <!-- <h1>Bootstrap starter template</h1>
+      <p>Use this document as a way to quick start any new project.<br> All you get is this message and a barebones HTML document.</p> -->
+
+      <div class="container-fluid">
+        <div class="row-fluid">
+          <div class="span3">
+            <div class="well sidebar-nav">
+              <ul class="nav nav-list">
+                <li class="nav-header">Virtual Machines</li>
+                <li class="active"><a href="#">Billing Server</a></li>
+                <li><a href="#">SQL Server</a></li>
+                <li><a href="#">nginX</a></li>
+                <li><a href="#">Apache</a></li>
+                <li><a href="#">My Server</a></li>
+                <li><a href="#">Backup VM</a></li>
+                <li><a href="#">Storage Server</a></li>
+              </ul>
+            </div><!--/.well -->
+          </div>
+          <div class="span4">
+            <h2>Virtual Machine</h2>
+              <ul>
+                <li>
+                  <a href="#">Power On</a>
+                </li>
+                <li>
+                  <a href="#">Power Off</a>
+                </li>
+              </ul>
+          </div><!--/span-->
+          <div class="span4">
+            <h2>Guest OS</h2>
+            <ul>
+                <li>
+                  <a href="#">Reboot</a>
+                </li>
+                <li>
+                  <a href="#">Stand By</a>
+                </li>
+                <li>
+                  <a href="#">Shut Down</a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>    
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../lib/bootstrap/docs/assets/js/jquery.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-transition.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-alert.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-modal.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-dropdown.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-tab.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-tooltip.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-popover.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-button.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-collapse.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-carousel.js"></script>
+    <script src="../lib/bootstrap/docs/assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>
