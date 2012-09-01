@@ -24,7 +24,12 @@
         background: #474747 url("./img/bg-gauss.png");
       }
       .navi-navbar-text {
+        color: #F5F5F5;
+        text-shadow: 0px 1px 1px #999;
+      }
+      a.navi-navbar-text:hover {
         color: #999;
+        text-shadow: none;
       }
       .nav-list .inc-font {
         font-size: 1.5em;
@@ -118,8 +123,8 @@
           <div class="span3">
             <div class="well sidebar-nav vm-sidebar">
               <ul class="nav nav-list">
-                <li class="nav-header inc-font">Virtual Machines</li>
-                <li class="active"><a href="#">Billing Server</a></li>
+                <li class="nav-header inc-font">Select VM</li>
+                <li class="active"><a href="#">DR-381264</a></li>
                 <li><a href="#">SQL Server</a></li>
                 <li><a href="#">nginX</a></li>
                 <li><a href="#">Apache</a></li>
@@ -131,14 +136,14 @@
           </div>
           <div class="span4">
             <h2 class="dec-font">Virtual Machine</h2>
-            <a href="#" class="btn btn-link disabled">Power On</a>
-            <a href="#" class="btn btn-link">Power Off</a>
+            <a href="#" class="btn btn-link disabled"><i class="icon-play"></i> Power On</a>
+            <a href="#" class="btn btn-link"><i class="icon-eject"></i> Power Off</a>
           </div><!--/span-->
           <div class="span4">
             <h2 class="dec-font">Guest OS</h2>
-            <a href="#" class="btn btn-link">Reboot</a>
-            <a href="#" class="btn btn-link">Stand By</a>
-            <a href="#" class="btn btn-link">Shut Down</a>
+            <a href="#" class="btn btn-link"><i class="icon-refresh"></i> Reboot</a>
+            <a href="#" class="btn btn-link"><i class="icon-pause"></i> Stand By</a>
+            <a href="#" class="btn btn-link"><i class="icon-stop"></i> Shut Down</a>
           </div>
         </div>
       </div>    
