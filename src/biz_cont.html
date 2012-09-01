@@ -26,6 +26,16 @@
       .navi-navbar-text {
         color: #999;
       }
+      .nav-list .inc-font {
+        font-size: 1.5em;
+        padding: 0px 0px 10px 0px;
+      }
+      .vm-sidebar {
+        box-shadow: 0.1em 0.1em 0.1em;
+      }
+      .dec-font {
+        font-size: 1.6em;
+      }
     </style>
     <link href="../lib/bootstrap/docs/assets/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -106,9 +116,9 @@
       <div class="container-fluid">
         <div class="row-fluid">
           <div class="span3">
-            <div class="well sidebar-nav">
+            <div class="well sidebar-nav vm-sidebar">
               <ul class="nav nav-list">
-                <li class="nav-header">Virtual Machines</li>
+                <li class="nav-header inc-font">Virtual Machines</li>
                 <li class="active"><a href="#">Billing Server</a></li>
                 <li><a href="#">SQL Server</a></li>
                 <li><a href="#">nginX</a></li>
@@ -120,7 +130,7 @@
             </div><!--/.well -->
           </div>
           <div class="span4">
-            <h2>Virtual Machine</h2>
+            <h2 class="dec-font">Virtual Machine</h2>
               <ul>
                 <li>
                   <a href="#">Power On</a>
@@ -131,7 +141,7 @@
               </ul>
           </div><!--/span-->
           <div class="span4">
-            <h2>Guest OS</h2>
+            <h2 class="dec-font">Guest OS</h2>
             <ul>
                 <li>
                   <a href="#">Reboot</a>
